@@ -5,8 +5,9 @@ transporte (pacote jar).
 
 O desenvolvimento foi baseado em TDD, ou seja, primeiro os testes depois a implementação. 
 
-Para trazer os taxistas estou pesquisando dos os taxistas cujas coordenadas estão dentro de uma retângulo geográfico. 
-Ainda não ordenando pelos de menor distancia. :(
+Para trazer os taxistas estou pesquisando dos os taxistas cujas coordenadas estão dentro de uma retângulo geográfico. Depois 
+cálculo o baricentro do retângulo geográfico supondo como o ponto do usuário. Calculo a distância de todos os taxistas ao 
+baricentro e retorno uma lista ordenada pelas menores distâncias.
 
 Sem autenticação (por enquanto!)
 
