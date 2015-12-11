@@ -31,3 +31,6 @@ Exemplo de raw body: {"latitude":-23.60810717,"longitude":-46.67500346,"driverId
 POST - http://localhost:8080/drivers/
 Exemplo de raw body: {"name":"David Doe", "plate":"ATX-0098"}
 
+// ou com 
+
+http://ec2-52-35-93-205.us-west-2.compute.amazonaws.com/
