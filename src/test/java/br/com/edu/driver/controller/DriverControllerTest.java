@@ -33,7 +33,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class DriverControllerTest {
 
 	public static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
-
+	
 	private RestTemplate restTemplate = new TestRestTemplate();
 
 	@Test
